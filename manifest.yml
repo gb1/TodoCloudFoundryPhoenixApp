@@ -1,0 +1,6 @@
+---
+applications:
+- name: todo_app
+  command: mix phoenix.server
+  services:
+    - todo_db

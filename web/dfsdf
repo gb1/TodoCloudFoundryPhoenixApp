@@ -1,0 +1,43 @@
+.
+├── channels
+│   └── user_socket.ex
+├── controllers
+│   ├── page_controller.ex
+│   └── todo_controller.ex
+├── gettext.ex
+├── models
+│   └── todo.ex
+├── router.ex
+├── static
+│   ├── assets
+│   │   ├── favicon.ico
+│   │   ├── images
+│   │   │   └── phoenix.png
+│   │   └── robots.txt
+│   ├── css
+│   │   ├── app.css
+│   │   └── phoenix.css
+│   ├── js
+│   │   ├── app.js
+│   │   └── socket.js
+│   └── vendor
+├── templates
+│   ├── layout
+│   │   └── app.html.eex
+│   ├── page
+│   │   └── index.html.eex
+│   └── todo
+│       ├── edit.html.eex
+│       ├── form.html.eex
+│       ├── index.html.eex
+│       ├── new.html.eex
+│       └── show.html.eex
+├── views
+│   ├── error_helpers.ex
+│   ├── error_view.ex
+│   ├── layout_view.ex
+│   ├── page_view.ex
+│   └── todo_view.ex
+└── web.ex
+
+14 directories, 26 files
